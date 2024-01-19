@@ -1,0 +1,6 @@
+../Core/Src/config.c:13:6:SystemClock_Config	88	static
+../Core/Src/config.c:60:6:MX_USART3_UART_Init	8	static
+../Core/Src/config.c:93:6:MX_USB_OTG_FS_PCD_Init	8	static
+../Core/Src/config.c:128:6:MX_GPIO_Init	56	static
+../Core/Src/config.c:201:6:print_msg	16	static
+../Core/Src/config.c:210:6:Error_Handler	4	static,ignoring_inline_asm
