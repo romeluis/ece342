@@ -1,0 +1,36 @@
+Counting time = 456 cycles
+
+Sin (math.h) = 58042 cycles, 64.5Hz
+Sin (LUT) = 5482 cycles, 23.9kHz
+Sin (Fixed) = 2391 cycles, 20kHz
+
+Square (Fixed):
+	1 term = 33.5 Hz
+	2 terms = 22.6 Hz
+	3 terms = 16.8 Hz
+	4 terms = 13.7 Hz
+	5 terms = 11.4 Hz
+	6 terms = 9.8 Hz
+Square (Floating):
+	1 term = 33.3 Hz
+	2 terms = 21.7 Hz
+	3 terms = 16.7 Hz
+	4 terms = 13.1 Hz
+	5 terms = 11.1 Hz
+	6 terms = 9.61 Hz
+
+Triangle (Floating):
+	1 term = 32 Hz
+	2 terms = 21.7 Hz
+	3 terms = 16.7 Hz
+	4 terms = 13.3 Hz
+	5 terms = 10.9 Hz
+	6 terms = 9.8 Hz
+
+Saw (Floating):
+	1 term = 61 Hz
+	2 terms = 37.1 Hz
+	3 terms = 21.7 Hz
+	4 terms = 16.7 Hz
+	5 terms = 13.1 Hz
+	6 terms = 11.1 Hz
