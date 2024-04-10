@@ -17,6 +17,7 @@ void hc05Init(UART_HandleTypeDef* moduleHuart, UART_HandleTypeDef* sisterHuart);
 
 bool checkConnection();
 bool cancelTransfer();
+bool checkTransfer();
 
 bool sendData(uint8_t* pdata, uint16_t size);
 bool receiveData(uint8_t* pdata, uint16_t* psize);

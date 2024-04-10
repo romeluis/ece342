@@ -1,10 +1,17 @@
-18:07:17 **** Incremental Build of configuration Debug for project UARTecho ****
+14:58:32 **** Incremental Build of configuration Debug for project UARTecho ****
 make -j7 all 
+arm-none-eabi-gcc "../Core/Src/hc-05.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/hc-05.d" -MT"Core/Src/hc-05.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/hc-05.o"
+arm-none-eabi-gcc -o "UARTecho.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/romeluis/STM32CubeIDE/workspace_1.14.0/UARTecho/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UARTecho.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UARTecho.elf
+ 
 arm-none-eabi-size  UARTecho.elf 
+arm-none-eabi-objdump -h -S UARTecho.elf  > "UARTecho.list"
    text	   data	    bss	    dec	    hex	filename
-  21052	    112	  28752	  49916	   c2fc	UARTecho.elf
+  21628	    112	  28760	  50500	   c544	UARTecho.elf
 Finished building: default.size.stdout
  
+Finished building: UARTecho.list
+ 
 
-18:07:18 Build Finished. 0 errors, 0 warnings. (took 276ms)
+14:58:33 Build Finished. 0 errors, 0 warnings. (took 626ms)
 

@@ -18,6 +18,7 @@
 #define SIZE_BUFFER_LENGTH 10
 #define OK_SIGNAL_LENGTH sizeof("OK\r\n")
 #define USART_TIMEOUT 1000
+#define TIME_THRESHOLD 5000
 
 //Enumerations
 typedef enum {
@@ -32,6 +33,8 @@ typedef enum {
 BluetoothState moduleState = DISCONNECTED;
 
 uint16_t dataSize = 0;
+uint32_t currentTime = 0;
+uint32_t previousTime = 0;
 
 uint8_t sizeBuffer[SIZE_BUFFER_LENGTH];
 uint8_t okBuffer[OK_SIGNAL_LENGTH] = "OK\r\n";
@@ -68,6 +71,13 @@ bool cancelTransfer() {
 	return true;
 }
 
+bool checkTransfer() {
+	if (BT_huart->gState == HAL_UART_STATE_READY || BT_huart->gState == HAL_UART_STATE_ERROR || BT_huart->gState == HAL_UART_STATE_TIMEOUT) {
+		return false;
+	}
+	return true;
+}
+
 bool sendData(uint8_t* pdata, uint16_t size) {
 	//Send data size
 	sendingSize = true;
@@ -95,7 +105,14 @@ bool sendData(uint8_t* pdata, uint16_t size) {
 	//Begin data transfer
 	sendingData = true;
 	HAL_UART_Transmit_DMA(BT_huart, pdata, size);
+	previousTime = HAL_GetTick();
 	while(sendingData) { //Wait until the DMA transfer completes
+		currentTime = HAL_GetTick();
+		if (currentTime - previousTime > TIME_THRESHOLD) { //Assume transfer complete given enough time
+			cancelTransfer();
+			waitingForData = false;
+			break;
+		}
 		HAL_Delay(0);
 	}
 
@@ -123,7 +140,14 @@ bool receiveData(uint8_t* pdata, uint16_t* psize) {
 	//Begin data transfer
 	waitingForData = true;
 	HAL_UART_Receive_DMA(BT_huart, pdata, dataSize);
+	previousTime = HAL_GetTick();
 	while(waitingForData) { //Wait until the DMA transfer completes
+		currentTime = HAL_GetTick();
+		if (currentTime - previousTime > TIME_THRESHOLD) { //Assume transfer complete given enough time
+			cancelTransfer();
+			waitingForData = false;
+			break;
+		}
 		HAL_Delay(0);
 	}
 

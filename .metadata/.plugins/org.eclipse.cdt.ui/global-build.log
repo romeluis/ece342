@@ -63,3 +63,173 @@ arm-none-eabi-size  proejct_board2.elf
   41140	    108	 104308	 145556	  23894	proejct_board2.elf
 Finished building: default.size.stdout
  
+14:08:04 **** Incremental Build of configuration Debug for project UARTecho ****
+make -j7 all 
+arm-none-eabi-size  UARTecho.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21052	    112	  28752	  49916	   c2fc	UARTecho.elf
+Finished building: default.size.stdout
+ 
+14:09:46 **** Incremental Build of configuration Debug for project UARTecho ****
+make -j7 all 
+arm-none-eabi-size  UARTecho.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21052	    112	  28752	  49916	   c2fc	UARTecho.elf
+Finished building: default.size.stdout
+ 
+14:10:30 **** Incremental Build of configuration Debug for project UARTecho ****
+make -j7 all 
+arm-none-eabi-size  UARTecho.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21052	    112	  28752	  49916	   c2fc	UARTecho.elf
+Finished building: default.size.stdout
+ 
+14:14:36 **** Incremental Build of configuration Debug for project UARTecho ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/hc-05.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/hc-05.d" -MT"Core/Src/hc-05.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/hc-05.o"
+arm-none-eabi-gcc -o "UARTecho.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/romeluis/STM32CubeIDE/workspace_1.14.0/UARTecho/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UARTecho.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UARTecho.elf
+ 
+arm-none-eabi-size  UARTecho.elf 
+arm-none-eabi-objdump -h -S UARTecho.elf  > "UARTecho.list"
+   text	   data	    bss	    dec	    hex	filename
+  21640	    112	  28760	  50512	   c550	UARTecho.elf
+Finished building: default.size.stdout
+ 
+Finished building: UARTecho.list
+ 
+14:17:31 **** Incremental Build of configuration Debug for project UARTecho ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/hc-05.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/hc-05.d" -MT"Core/Src/hc-05.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/hc-05.o"
+arm-none-eabi-gcc -o "UARTecho.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/romeluis/STM32CubeIDE/workspace_1.14.0/UARTecho/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UARTecho.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UARTecho.elf
+ 
+arm-none-eabi-size  UARTecho.elf 
+arm-none-eabi-objdump -h -S UARTecho.elf  > "UARTecho.list"
+   text	   data	    bss	    dec	    hex	filename
+  21648	    112	  28760	  50520	   c558	UARTecho.elf
+Finished building: default.size.stdout
+ 
+Finished building: UARTecho.list
+ 
+14:18:00 **** Incremental Build of configuration Debug for project UARTecho ****
+make -j7 all 
+arm-none-eabi-size  UARTecho.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21648	    112	  28760	  50520	   c558	UARTecho.elf
+Finished building: default.size.stdout
+ 
+14:20:16 **** Incremental Build of configuration Debug for project UARTecho ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/hc-05.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/hc-05.d" -MT"Core/Src/hc-05.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/hc-05.o"
+arm-none-eabi-gcc -o "UARTecho.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/romeluis/STM32CubeIDE/workspace_1.14.0/UARTecho/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UARTecho.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UARTecho.elf
+ 
+arm-none-eabi-size  UARTecho.elf 
+arm-none-eabi-objdump -h -S UARTecho.elf  > "UARTecho.list"
+   text	   data	    bss	    dec	    hex	filename
+  21652	    112	  28760	  50524	   c55c	UARTecho.elf
+Finished building: default.size.stdout
+ 
+Finished building: UARTecho.list
+ 
+14:21:16 **** Incremental Build of configuration Debug for project proejct_board2 ****
+make -j7 all 
+arm-none-eabi-size  proejct_board2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41140	    108	 104308	 145556	  23894	proejct_board2.elf
+Finished building: default.size.stdout
+ 
+14:39:59 **** Incremental Build of configuration Debug for project UARTecho ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/hc-05.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/hc-05.d" -MT"Core/Src/hc-05.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/hc-05.o"
+arm-none-eabi-gcc -o "UARTecho.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/romeluis/STM32CubeIDE/workspace_1.14.0/UARTecho/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UARTecho.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UARTecho.elf
+ 
+arm-none-eabi-size  UARTecho.elf 
+arm-none-eabi-objdump -h -S UARTecho.elf  > "UARTecho.list"
+   text	   data	    bss	    dec	    hex	filename
+  21652	    112	  28760	  50524	   c55c	UARTecho.elf
+Finished building: default.size.stdout
+ 
+Finished building: UARTecho.list
+ 
+14:46:03 **** Incremental Build of configuration Debug for project UARTecho ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/hc-05.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/hc-05.d" -MT"Core/Src/hc-05.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/hc-05.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "UARTecho.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/romeluis/STM32CubeIDE/workspace_1.14.0/UARTecho/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UARTecho.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UARTecho.elf
+ 
+arm-none-eabi-size  UARTecho.elf 
+arm-none-eabi-objdump -h -S UARTecho.elf  > "UARTecho.list"
+   text	   data	    bss	    dec	    hex	filename
+  21748	    112	  28760	  50620	   c5bc	UARTecho.elf
+Finished building: default.size.stdout
+ 
+Finished building: UARTecho.list
+ 
+14:46:13 **** Incremental Build of configuration Debug for project proejct_board2 ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/hc-05.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/hc-05.d" -MT"Core/Src/hc-05.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/hc-05.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "proejct_board2.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/romeluis/STM32CubeIDE/workspace_1.14.0/proejct_board2/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="proejct_board2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: proejct_board2.elf
+ 
+arm-none-eabi-size  proejct_board2.elf 
+arm-none-eabi-objdump -h -S proejct_board2.elf  > "proejct_board2.list"
+   text	   data	    bss	    dec	    hex	filename
+  41140	    116	 104300	 145556	  23894	proejct_board2.elf
+Finished building: default.size.stdout
+ 
+Finished building: proejct_board2.list
+ 
+14:47:14 **** Incremental Build of configuration Debug for project UARTecho ****
+make -j7 all 
+arm-none-eabi-size  UARTecho.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21748	    112	  28760	  50620	   c5bc	UARTecho.elf
+Finished building: default.size.stdout
+ 
+14:52:25 **** Incremental Build of configuration Debug for project UARTecho ****
+make -j7 all 
+arm-none-eabi-size  UARTecho.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21748	    112	  28760	  50620	   c5bc	UARTecho.elf
+Finished building: default.size.stdout
+ 
+14:58:18 **** Incremental Build of configuration Debug for project proejct_board2 ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/hc-05.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/hc-05.d" -MT"Core/Src/hc-05.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/hc-05.o"
+arm-none-eabi-gcc -o "proejct_board2.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/romeluis/STM32CubeIDE/workspace_1.14.0/proejct_board2/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="proejct_board2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: proejct_board2.elf
+ 
+arm-none-eabi-size  proejct_board2.elf 
+arm-none-eabi-objdump -h -S proejct_board2.elf  > "proejct_board2.list"
+   text	   data	    bss	    dec	    hex	filename
+  41720	    116	 104308	 146144	  23ae0	proejct_board2.elf
+Finished building: default.size.stdout
+ 
+Finished building: proejct_board2.list
+ 
+14:58:32 **** Incremental Build of configuration Debug for project UARTecho ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/hc-05.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/hc-05.d" -MT"Core/Src/hc-05.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/hc-05.o"
+arm-none-eabi-gcc -o "UARTecho.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/romeluis/STM32CubeIDE/workspace_1.14.0/UARTecho/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UARTecho.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UARTecho.elf
+ 
+arm-none-eabi-size  UARTecho.elf 
+arm-none-eabi-objdump -h -S UARTecho.elf  > "UARTecho.list"
+   text	   data	    bss	    dec	    hex	filename
+  21628	    112	  28760	  50500	   c544	UARTecho.elf
+Finished building: default.size.stdout
+ 
+Finished building: UARTecho.list
+ 
+14:58:43 **** Incremental Build of configuration Debug for project proejct_board2 ****
+make -j7 all 
+arm-none-eabi-size  proejct_board2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41720	    116	 104308	 146144	  23ae0	proejct_board2.elf
+Finished building: default.size.stdout
+ 
