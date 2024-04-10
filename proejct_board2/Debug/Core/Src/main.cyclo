@@ -1,0 +1,16 @@
+../Core/Src/main.c:102:5:main	2
+../Core/Src/main.c:162:6:SystemClock_Config	3
+../Core/Src/main.c:209:13:MX_DCMI_Init	2
+../Core/Src/main.c:246:13:MX_I2C2_Init	2
+../Core/Src/main.c:280:13:MX_TIM1_Init	5
+../Core/Src/main.c:345:13:MX_TIM6_Init	3
+../Core/Src/main.c:383:13:MX_USART2_UART_Init	2
+../Core/Src/main.c:416:13:MX_USART3_UART_Init	2
+../Core/Src/main.c:449:13:MX_USB_OTG_FS_PCD_Init	2
+../Core/Src/main.c:482:13:MX_DMA_Init	1
+../Core/Src/main.c:510:13:MX_GPIO_Init	1
+../Core/Src/main.c:576:6:extraTruncatedVideoMode	4
+../Core/Src/main.c:616:9:findNumberOfRepeatedPixels	4
+../Core/Src/main.c:630:6:transferRawBufferToIntermediate	4
+../Core/Src/main.c:645:5:rle	3
+../Core/Src/main.c:663:6:Error_Handler	1

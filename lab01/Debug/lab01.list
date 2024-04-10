@@ -1869,7 +1869,7 @@ void SysTick_Handler(void)
  8000e7e:	bd80      	pop	{r7, pc}
 
 08000e80 <EXTI4_IRQHandler>:
-uint32_t interval = 150;
+uint32_t interval = 125;
 uint32_t thisTime;
 
 

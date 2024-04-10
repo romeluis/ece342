@@ -1,0 +1,289 @@
+14:26:38 **** Build of configuration Debug for project lab03 ****
+make -j7 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/RTOS2/Template/cmsis_os1.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/RTOS2/Template/cmsis_os1.d" -MT"Drivers/CMSIS/RTOS2/Template/cmsis_os1.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/RTOS2/Template/cmsis_os1.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/RTOS2/Source/os_systick.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/RTOS2/Source/os_systick.d" -MT"Drivers/CMSIS/RTOS2/Source/os_systick.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/RTOS2/Source/os_systick.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/RTOS2/Source/os_tick_gtim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/RTOS2/Source/os_tick_gtim.d" -MT"Drivers/CMSIS/RTOS2/Source/os_tick_gtim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/RTOS2/Source/os_tick_gtim.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/RTOS2/Source/os_tick_ptim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/RTOS2/Source/os_tick_ptim.d" -MT"Drivers/CMSIS/RTOS2/Source/os_tick_ptim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/RTOS2/Source/os_tick_ptim.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.d" -MT"Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.o"
+../Drivers/CMSIS/RTOS2/Source/os_tick_ptim.c:25:10: fatal error: RTE_Components.h: No such file or directory
+   25 | #include "RTE_Components.h"
+      |          ^~~~~~~~~~~~~~~~~~
+../Drivers/CMSIS/RTOS2/Source/os_tick_gtim.c:25:10: fatal error: os_tick.h: No such file or directory
+   25 | #include "os_tick.h"
+      |          ^~~~~~~~~~~
+../Drivers/CMSIS/RTOS2/Source/os_systick.c:25:10: fatal error: os_tick.h: No such file or directory
+   25 | #include "os_tick.h"
+      |          ^~~~~~~~~~~
+../Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c:31:10: fatal error: arm_math.h: No such file or directory
+   31 | #include "arm_math.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+make: *** [Drivers/CMSIS/NN/Source/SoftmaxFunctions/subdir.mk:22: Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Drivers/CMSIS/RTOS2/Source/subdir.mk:25: Drivers/CMSIS/RTOS2/Source/os_systick.o] Error 1
+make: *** [Drivers/CMSIS/RTOS2/Source/subdir.mk:25: Drivers/CMSIS/RTOS2/Source/os_tick_gtim.o] Error 1
+make: *** [Drivers/CMSIS/RTOS2/Source/subdir.mk:25: Drivers/CMSIS/RTOS2/Source/os_tick_ptim.o] Error 1
+In file included from ../Drivers/CMSIS/RTOS2/Template/cmsis_os1.c:28:
+../Drivers/CMSIS/RTOS2/Template/cmsis_os.h:157:10: fatal error: cmsis_os2.h: No such file or directory
+  157 | #include "cmsis_os2.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/CMSIS/RTOS2/Template/subdir.mk:19: Drivers/CMSIS/RTOS2/Template/cmsis_os1.o] Error 1
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:83:1: error: unknown type name 'RTC_HandleTypeDef'; did you mean 'DAC_HandleTypeDef'?
+   83 | RTC_HandleTypeDef        hRTC_Handle;
+      | ^~~~~~~~~~~~~~~~~
+      | DAC_HandleTypeDef
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:82:1: error: unknown type name 'RTC_HandleTypeDef'; did you mean 'DAC_HandleTypeDef'?
+   82 | RTC_HandleTypeDef        hRTC_Handle;
+      | ^~~~~~~~~~~~~~~~~
+      | DAC_HandleTypeDef
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c: In function 'HAL_InitTick':
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c: In function 'HAL_InitTick':
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:149:16: error: request for member 'Instance' in something not a structure or union
+  149 |     hRTC_Handle.Instance = RTC;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:156:16: error: request for member 'Instance' in something not a structure or union
+  156 |     hRTC_Handle.Instance = RTC;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:150:16: error: request for member 'Init' in something not a structure or union
+  150 |     hRTC_Handle.Init.HourFormat = RTC_HOURFORMAT_24;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:157:16: error: request for member 'Init' in something not a structure or union
+  157 |     hRTC_Handle.Init.HourFormat = RTC_HOURFORMAT_24;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:157:35: error: 'RTC_HOURFORMAT_24' undeclared (first use in this function)
+  157 |     hRTC_Handle.Init.HourFormat = RTC_HOURFORMAT_24;
+      |                                   ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:157:35: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:158:16: error: request for member 'Init' in something not a structure or union
+  158 |     hRTC_Handle.Init.AsynchPrediv = RTC_ASYNCH_PREDIV;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:159:16: error: request for member 'Init' in something not a structure or union
+  159 |     hRTC_Handle.Init.SynchPrediv = RTC_SYNCH_PREDIV;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:160:16: error: request for member 'Init' in something not a structure or union
+  160 |     hRTC_Handle.Init.OutPut = RTC_OUTPUT_DISABLE;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:150:35: error: 'RTC_HOURFORMAT_24' undeclared (first use in this function)
+  150 |     hRTC_Handle.Init.HourFormat = RTC_HOURFORMAT_24;
+      |                                   ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:150:35: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:151:16: error: request for member 'Init' in something not a structure or union
+  151 |     hRTC_Handle.Init.AsynchPrediv = RTC_ASYNCH_PREDIV;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:152:16: error: request for member 'Init' in something not a structure or union
+  152 |     hRTC_Handle.Init.SynchPrediv = RTC_SYNCH_PREDIV;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:153:16: error: request for member 'Init' in something not a structure or union
+  153 |     hRTC_Handle.Init.OutPut = RTC_OUTPUT_DISABLE;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:160:31: error: 'RTC_OUTPUT_DISABLE' undeclared (first use in this function)
+  160 |     hRTC_Handle.Init.OutPut = RTC_OUTPUT_DISABLE;
+      |                               ^~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:161:16: error: request for member 'Init' in something not a structure or union
+  161 |     hRTC_Handle.Init.OutPutPolarity = RTC_OUTPUT_POLARITY_HIGH;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:153:31: error: 'RTC_OUTPUT_DISABLE' undeclared (first use in this function)
+  153 |     hRTC_Handle.Init.OutPut = RTC_OUTPUT_DISABLE;
+      |                               ^~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:154:16: error: request for member 'Init' in something not a structure or union
+  154 |     hRTC_Handle.Init.OutPutPolarity = RTC_OUTPUT_POLARITY_HIGH;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:161:39: error: 'RTC_OUTPUT_POLARITY_HIGH' undeclared (first use in this function); did you mean 'USART_POLARITY_HIGH'?
+  161 |     hRTC_Handle.Init.OutPutPolarity = RTC_OUTPUT_POLARITY_HIGH;
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                       USART_POLARITY_HIGH
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:162:16: error: request for member 'Init' in something not a structure or union
+  162 |     hRTC_Handle.Init.OutPutType = RTC_OUTPUT_TYPE_OPENDRAIN;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:154:39: error: 'RTC_OUTPUT_POLARITY_HIGH' undeclared (first use in this function); did you mean 'USART_POLARITY_HIGH'?
+  154 |     hRTC_Handle.Init.OutPutPolarity = RTC_OUTPUT_POLARITY_HIGH;
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                       USART_POLARITY_HIGH
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:155:16: error: request for member 'Init' in something not a structure or union
+  155 |     hRTC_Handle.Init.OutPutType = RTC_OUTPUT_TYPE_OPENDRAIN;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:162:35: error: 'RTC_OUTPUT_TYPE_OPENDRAIN' undeclared (first use in this function)
+  162 |     hRTC_Handle.Init.OutPutType = RTC_OUTPUT_TYPE_OPENDRAIN;
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:155:35: error: 'RTC_OUTPUT_TYPE_OPENDRAIN' undeclared (first use in this function)
+  155 |     hRTC_Handle.Init.OutPutType = RTC_OUTPUT_TYPE_OPENDRAIN;
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:163:14: warning: implicit declaration of function 'HAL_RTC_Init'; did you mean 'HAL_DAC_Init'? [-Wimplicit-function-declaration]
+  163 |     status = HAL_RTC_Init(&hRTC_Handle);
+      |              ^~~~~~~~~~~~
+      |              HAL_DAC_Init
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:156:14: warning: implicit declaration of function 'HAL_RTC_Init'; did you mean 'HAL_DAC_Init'? [-Wimplicit-function-declaration]
+  156 |     status = HAL_RTC_Init(&hRTC_Handle);
+      |              ^~~~~~~~~~~~
+      |              HAL_DAC_Init
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:168:5: warning: implicit declaration of function '__HAL_RTC_WRITEPROTECTION_DISABLE' [-Wimplicit-function-declaration]
+  168 |     __HAL_RTC_WRITEPROTECTION_DISABLE(&hRTC_Handle);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:161:5: warning: implicit declaration of function '__HAL_RTC_WRITEPROTECTION_DISABLE' [-Wimplicit-function-declaration]
+  161 |     __HAL_RTC_WRITEPROTECTION_DISABLE(&hRTC_Handle);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:164:5: warning: implicit declaration of function '__HAL_RTC_ALARMA_DISABLE' [-Wimplicit-function-declaration]
+  164 |     __HAL_RTC_ALARMA_DISABLE(&hRTC_Handle);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:171:5: warning: implicit declaration of function '__HAL_RTC_WAKEUPTIMER_DISABLE' [-Wimplicit-function-declaration]
+  171 |     __HAL_RTC_WAKEUPTIMER_DISABLE(&hRTC_Handle);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:167:5: warning: implicit declaration of function '__HAL_RTC_ALARM_CLEAR_FLAG' [-Wimplicit-function-declaration]
+  167 |     __HAL_RTC_ALARM_CLEAR_FLAG(&hRTC_Handle, RTC_FLAG_ALRAF);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:174:5: warning: implicit declaration of function '__HAL_RTC_WAKEUPTIMER_DISABLE_IT' [-Wimplicit-function-declaration]
+  174 |     __HAL_RTC_WAKEUPTIMER_DISABLE_IT(&hRTC_Handle, RTC_IT_WUT);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:167:46: error: 'RTC_FLAG_ALRAF' undeclared (first use in this function); did you mean 'RTC_ISR_ALRAF'?
+  167 |     __HAL_RTC_ALARM_CLEAR_FLAG(&hRTC_Handle, RTC_FLAG_ALRAF);
+      |                                              ^~~~~~~~~~~~~~
+      |                                              RTC_ISR_ALRAF
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:174:52: error: 'RTC_IT_WUT' undeclared (first use in this function); did you mean 'RTC_ISR_WUTF'?
+  174 |     __HAL_RTC_WAKEUPTIMER_DISABLE_IT(&hRTC_Handle, RTC_IT_WUT);
+      |                                                    ^~~~~~~~~~
+      |                                                    RTC_ISR_WUTF
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:171:12: warning: implicit declaration of function '__HAL_RTC_ALARM_GET_FLAG' [-Wimplicit-function-declaration]
+  171 |     while (__HAL_RTC_ALARM_GET_FLAG(&hRTC_Handle, RTC_FLAG_ALRAWF) == RESET)
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:177:12: warning: implicit declaration of function '__HAL_RTC_WAKEUPTIMER_GET_FLAG' [-Wimplicit-function-declaration]
+  177 |     while (__HAL_RTC_WAKEUPTIMER_GET_FLAG(&hRTC_Handle, RTC_FLAG_WUTWF) == RESET)
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:171:51: error: 'RTC_FLAG_ALRAWF' undeclared (first use in this function); did you mean 'RTC_ISR_ALRAWF'?
+  171 |     while (__HAL_RTC_ALARM_GET_FLAG(&hRTC_Handle, RTC_FLAG_ALRAWF) == RESET)
+      |                                                   ^~~~~~~~~~~~~~~
+      |                                                   RTC_ISR_ALRAWF
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:181:16: error: request for member 'Instance' in something not a structure or union
+  181 |     hRTC_Handle.Instance->ALRMAR = (uint32_t)0x01U;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:177:57: error: 'RTC_FLAG_WUTWF' undeclared (first use in this function); did you mean 'RTC_ISR_WUTWF'?
+  177 |     while (__HAL_RTC_WAKEUPTIMER_GET_FLAG(&hRTC_Handle, RTC_FLAG_WUTWF) == RESET)
+      |                                                         ^~~~~~~~~~~~~~
+      |                                                         RTC_ISR_WUTWF
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:184:5: warning: implicit declaration of function '__HAL_RTC_ALARMA_ENABLE' [-Wimplicit-function-declaration]
+  184 |     __HAL_RTC_ALARMA_ENABLE(&hRTC_Handle);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:191:5: warning: implicit declaration of function '__HAL_RTC_WAKEUPTIMER_CLEAR_FLAG' [-Wimplicit-function-declaration]
+  191 |     __HAL_RTC_WAKEUPTIMER_CLEAR_FLAG(&hRTC_Handle, RTC_FLAG_WUTF);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:191:52: error: 'RTC_FLAG_WUTF' undeclared (first use in this function); did you mean 'RTC_ISR_WUTF'?
+  191 |     __HAL_RTC_WAKEUPTIMER_CLEAR_FLAG(&hRTC_Handle, RTC_FLAG_WUTF);
+      |                                                    ^~~~~~~~~~~~~
+      |                                                    RTC_ISR_WUTF
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:194:16: error: request for member 'Instance' in something not a structure or union
+  194 |     hRTC_Handle.Instance->WUTR = 0U;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:197:16: error: request for member 'Instance' in something not a structure or union
+  197 |     hRTC_Handle.Instance->CR &= (uint32_t)~RTC_CR_WUCKSEL;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:200:16: error: request for member 'Instance' in something not a structure or union
+  200 |     hRTC_Handle.Instance->CR |= (uint32_t)RTC_WAKEUPCLOCK_CK_SPRE_16BITS;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:186:5: warning: implicit declaration of function '__HAL_RTC_ALARM_ENABLE_IT' [-Wimplicit-function-declaration]
+  186 |     __HAL_RTC_ALARM_ENABLE_IT(&hRTC_Handle, RTC_IT_ALRA);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:186:45: error: 'RTC_IT_ALRA' undeclared (first use in this function); did you mean 'RTC_CR_ALRAE'?
+  186 |     __HAL_RTC_ALARM_ENABLE_IT(&hRTC_Handle, RTC_IT_ALRA);
+      |                                             ^~~~~~~~~~~
+      |                                             RTC_CR_ALRAE
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:200:43: error: 'RTC_WAKEUPCLOCK_CK_SPRE_16BITS' undeclared (first use in this function)
+  200 |     hRTC_Handle.Instance->CR |= (uint32_t)RTC_WAKEUPCLOCK_CK_SPRE_16BITS;
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:189:5: warning: implicit declaration of function '__HAL_RTC_ALARM_EXTI_ENABLE_IT' [-Wimplicit-function-declaration]
+  189 |     __HAL_RTC_ALARM_EXTI_ENABLE_IT();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:203:5: warning: implicit declaration of function '__HAL_RTC_WAKEUPTIMER_EXTI_ENABLE_IT' [-Wimplicit-function-declaration]
+  203 |     __HAL_RTC_WAKEUPTIMER_EXTI_ENABLE_IT();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:190:5: warning: implicit declaration of function '__HAL_RTC_ALARM_EXTI_ENABLE_RISING_EDGE' [-Wimplicit-function-declaration]
+  190 |     __HAL_RTC_ALARM_EXTI_ENABLE_RISING_EDGE();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:193:21: error: request for member 'Instance' in something not a structure or union
+  193 |     if ((hRTC_Handle.Instance->ISR & RTC_ISR_INITF) == (uint32_t)RESET)
+      |                     ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:196:18: error: request for member 'Instance' in something not a structure or union
+  196 |       hRTC_Handle.Instance->ISR = (uint32_t)RTC_INIT_MASK;
+      |                  ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:196:45: error: 'RTC_INIT_MASK' undeclared (first use in this function)
+  196 |       hRTC_Handle.Instance->ISR = (uint32_t)RTC_INIT_MASK;
+      |                                             ^~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:198:26: error: request for member 'Instance' in something not a structure or union
+  198 |       while ((hRTC_Handle.Instance->ISR & RTC_ISR_INITF) == (uint32_t)RESET)
+      |                          ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:209:16: error: request for member 'Instance' in something not a structure or union
+  209 |     hRTC_Handle.Instance->DR = 0U;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:210:16: error: request for member 'Instance' in something not a structure or union
+  210 |     hRTC_Handle.Instance->TR = 0U;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:212:16: error: request for member 'Instance' in something not a structure or union
+  212 |     hRTC_Handle.Instance->ISR &= (uint32_t)~RTC_ISR_INIT;
+      |                ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:205:5: warning: implicit declaration of function '__HAL_RTC_WAKEUPTIMER_EXTI_ENABLE_RISING_EDGE' [-Wimplicit-function-declaration]
+  205 |     __HAL_RTC_WAKEUPTIMER_EXTI_ENABLE_RISING_EDGE();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:215:5: warning: implicit declaration of function '__HAL_RTC_WRITEPROTECTION_ENABLE' [-Wimplicit-function-declaration]
+  215 |     __HAL_RTC_WRITEPROTECTION_ENABLE(&hRTC_Handle);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:208:5: warning: implicit declaration of function '__HAL_RTC_WAKEUPTIMER_ENABLE_IT' [-Wimplicit-function-declaration]
+  208 |     __HAL_RTC_WAKEUPTIMER_ENABLE_IT(&hRTC_Handle,RTC_IT_WUT);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c: In function 'HAL_SuspendTick':
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:245:3: warning: implicit declaration of function '__HAL_RTC_ALARM_DISABLE_IT' [-Wimplicit-function-declaration]
+  245 |   __HAL_RTC_ALARM_DISABLE_IT(&hRTC_Handle, RTC_IT_ALRA);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:245:44: error: 'RTC_IT_ALRA' undeclared (first use in this function); did you mean 'RTC_CR_ALRAE'?
+  245 |   __HAL_RTC_ALARM_DISABLE_IT(&hRTC_Handle, RTC_IT_ALRA);
+      |                                            ^~~~~~~~~~~
+      |                                            RTC_CR_ALRAE
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c: In function 'HAL_ResumeTick':
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:260:43: error: 'RTC_IT_ALRA' undeclared (first use in this function); did you mean 'RTC_CR_ALRAE'?
+  260 |   __HAL_RTC_ALARM_ENABLE_IT(&hRTC_Handle, RTC_IT_ALRA);
+      |                                           ^~~~~~~~~~~
+      |                                           RTC_CR_ALRAE
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:211:5: warning: implicit declaration of function '__HAL_RTC_WAKEUPTIMER_ENABLE' [-Wimplicit-function-declaration]
+  211 |     __HAL_RTC_WAKEUPTIMER_ENABLE(&hRTC_Handle);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c: At top level:
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:273:34: error: unknown type name 'RTC_HandleTypeDef'; did you mean 'DAC_HandleTypeDef'?
+  273 | void HAL_RTC_AlarmAEventCallback(RTC_HandleTypeDef *hrtc)
+      |                                  ^~~~~~~~~~~~~~~~~
+      |                                  DAC_HandleTypeDef
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c: In function 'RTC_Alarm_IRQHandler':
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c:307:3: warning: implicit declaration of function 'HAL_RTC_AlarmIRQHandler'; did you mean 'RTC_Alarm_IRQHandler'? [-Wimplicit-function-declaration]
+  307 |   HAL_RTC_AlarmIRQHandler(&hRTC_Handle);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~
+      |   RTC_Alarm_IRQHandler
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:214:5: warning: implicit declaration of function '__HAL_RTC_WRITEPROTECTION_ENABLE' [-Wimplicit-function-declaration]
+  214 |     __HAL_RTC_WRITEPROTECTION_ENABLE(&hRTC_Handle);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c: In function 'HAL_SuspendTick':
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:243:50: error: 'RTC_IT_WUT' undeclared (first use in this function); did you mean 'RTC_ISR_WUTF'?
+  243 |   __HAL_RTC_WAKEUPTIMER_DISABLE_IT(&hRTC_Handle, RTC_IT_WUT);
+      |                                                  ^~~~~~~~~~
+      |                                                  RTC_ISR_WUTF
+make: *** [Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk:298: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.o] Error 1
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c: In function 'HAL_ResumeTick':
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:258:49: error: 'RTC_IT_WUT' undeclared (first use in this function); did you mean 'RTC_ISR_WUTF'?
+  258 |   __HAL_RTC_WAKEUPTIMER_ENABLE_IT(&hRTC_Handle, RTC_IT_WUT);
+      |                                                 ^~~~~~~~~~
+      |                                                 RTC_ISR_WUTF
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c: At top level:
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:271:41: error: unknown type name 'RTC_HandleTypeDef'; did you mean 'DAC_HandleTypeDef'?
+  271 | void HAL_RTCEx_WakeUpTimerEventCallback(RTC_HandleTypeDef *hrtc)
+      |                                         ^~~~~~~~~~~~~~~~~
+      |                                         DAC_HandleTypeDef
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c: In function 'RTC_WKUP_IRQHandler':
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c:282:3: warning: implicit declaration of function 'HAL_RTCEx_WakeUpTimerIRQHandler' [-Wimplicit-function-declaration]
+  282 |   HAL_RTCEx_WakeUpTimerIRQHandler(&hRTC_Handle);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk:298: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.o] Error 1
+"make -j7 all" terminated with exit code 2. Build might be incomplete.
+
+14:26:40 Build Failed. 61 errors, 24 warnings. (took 1s.436ms)
+

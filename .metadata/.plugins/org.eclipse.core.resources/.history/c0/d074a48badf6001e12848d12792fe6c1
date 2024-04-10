@@ -1,0 +1,164 @@
+/*
+ * hc-05.c
+ *
+ *  Created on: Apr 9, 2024
+ *      Author: romeluis
+ */
+
+//Includes
+#include "hc-05.h"
+#include "main.h"
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
+
+//Defines
+#define OK_SIGNAL "OK"
+#define SIZE_BUFFER_LENGTH 10
+#define DATA_BUFFER_LENGTH 144*174 + 100
+#define OK_SIGNAL_LENGTH sizeof("OK\r\n")
+#define USART_TIMEOUT 1000
+
+//Enumerations
+typedef enum {
+	IDLE = 0,
+	TRANSMITTING,
+	RECEIVING,
+	WAITING_CONFIRMATION,
+	DISCONNECTED
+} BluetoothState;
+
+//Variables
+BluetoothState moduleState = DISCONNECTED;
+
+uint8_t sizeBuffer[SIZE_BUFFER_LENGTH];
+uint8_t dataBuffer[DATA_BUFFER_LENGTH];
+uint8_t okBuffer[OK_SIGNAL_LENGTH] = "OK\r\n";
+
+bool waitingForData = false;
+bool waitingForSize = false;
+
+bool sendingData = false;
+bool sendingSize = false;
+
+UART_HandleTypeDef* BT_huart;
+
+void hc05Init(UART_HandleTypeDef* moduleHuart) {
+	BT_huart = moduleHuart;
+}
+
+bool checkConnection() {
+	if (HAL_GPIO_ReadPin(BT_STATE_GPIO_Port, BT_STATE_Pin)) {
+		moduleState = IDLE;
+		return true;
+	} else {
+		moduleState = DISCONNECTED;
+		return false;
+	}
+}
+
+bool cancelTransfer() {
+	HAL_UART_Abort(BT_huart);
+	return true;
+}
+
+bool sendData(uint8_t* pdata, uint16_t size) {
+	//Send data size
+	sendingSize = true;
+	sprintf(sizeBuffer, "%d", size);
+	HAL_UART_Transmit_DMA(BT_huart, sizeBuffer, SIZE_BUFFER_LENGTH);
+	while(sendingSize) { //Wait until the DMA transfer completes
+		HAL_Delay(0);
+	}
+
+	//Wait for confirmation signal
+	HAL_UART_Receieve(BT_huart, okBuffer, OK_SIGNAL_LENGTH, USART_TIMEOUT);
+
+	//Check confirmation
+	if (okBuffer[0] != "O" || okBuffer[1] != "K") {
+		while(1) {//Lock
+			HAL_GPIO_WritePin(GPIOB, LD3_Pin, GPIO_PIN_SET);
+		}
+	}
+
+	//Begin data transfer
+	sendingData = true;
+	HAL_UART_Transmit_DMA(BT_huart, dataBuffer, dataSize);
+	while(sendingData) { //Wait until the DMA transfer completes
+		HAL_Delay(0);
+	}
+
+	return true; //Transfer complete
+}
+
+bool recieveData(uint8_t* pdata) {
+	//Start UART transfer to receive data size
+	waitingForSize = true;
+	HAL_UART_Receive_DMA(BT_huart, sizeBuffer, SIZE_BUFFER_LENGTH);
+	while(waitingForSize) { //Wait until the DMA transfer completes
+		HAL_Delay(0);
+	}
+
+	//Convert string to integer
+	if (sizeBuffer[0] == 0) { //Sometimes the first character is zero so the number must be shifted
+		shiftSizeBuffer();
+	}
+	uint16_t dataSize = atoi((char*)sizeBuffer);
+
+	//Send confirmation signal
+	HAL_UART_Transmit(BT_huart, okBuffer, OK_SIGNAL_LENGTH, USART_TIMEOUT);
+
+	//Begin data transfer
+	waitingForData = true;
+	HAL_UART_Receive_DMA(BT_huart, dataBuffer, dataSize);
+	while(waitingForData) { //Wait until the DMA transfer completes
+		HAL_Delay(0);
+	}
+
+	return true; //Transfer complete
+}
+
+void shiftSizeBuffer() {
+	sizeBuffer[0] = sizeBuffer[1];
+	sizeBuffer[1] = sizeBuffer[2];
+	sizeBuffer[2] = sizeBuffer[3];
+	sizeBuffer[3] = sizeBuffer[4];
+	sizeBuffer[4] = sizeBuffer[5];
+	sizeBuffer[5] = sizeBuffer[6];
+	sizeBuffer[6] = sizeBuffer[7];
+	sizeBuffer[7] = sizeBuffer[8];
+	sizeBuffer[8] = sizeBuffer[9];
+	sizeBuffer[9] = 0;
+}
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
+	if (huart != BT_huart) {
+		return;
+	}
+
+	if (waitingForSize) {
+		waitingForSize = false;
+		return;
+	}
+
+	if (waitingForData) {
+		waitingForData = false;
+		return;
+	}
+}
+
+void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart) {
+	if (huart != BT_huart) {
+		return;
+	}
+
+	if (sendingSize) {
+		sendingSize = false;
+		return;
+	}
+
+	if (sendingData) {
+		sendingData = false;
+		return;
+	}
+}

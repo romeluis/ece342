@@ -1,0 +1,17 @@
+/*
+ * hc-05.c
+ *
+ *  Created on: Apr 9, 2024
+ *      Author: romeluis
+ */
+
+//Includes
+#include "hc-05.h"
+#include "main.h"
+
+//Defines
+#define OK_SIGNAL "OK"
+
+void checkConnection() {
+
+}

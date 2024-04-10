@@ -1,0 +1,6 @@
+../Core/Src/ov7670.c:159:19:print_msg	16	static
+../Core/Src/ov7670.c:164:9:ov7670_init	144	static
+../Core/Src/ov7670.c:213:9:ov7670_read	136	static
+../Core/Src/ov7670.c:248:19:ov7670_write	144	static
+../Core/Src/ov7670.c:289:6:ov7670_snapshot	16	static
+../Core/Src/ov7670.c:293:6:ov7670_capture	16	static

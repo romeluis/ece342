@@ -1,0 +1,5 @@
+2024-03-20 13:32:35,653 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-03-20 15:26:24,726 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-03-20 15:26:24,732 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-03-20 15:26:24,732 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-03-20 15:26:29,675 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 

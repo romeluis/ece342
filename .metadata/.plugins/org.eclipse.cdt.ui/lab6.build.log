@@ -1,0 +1,435 @@
+12:16:47 **** Build of configuration Debug for project lab6 ****
+make -j7 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f446zetx.d" -MT"Core/Startup/startup_stm32f446zetx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f446zetx.o" "../Core/Startup/startup_stm32f446zetx.s"
+arm-none-eabi-gcc "../Core/Src/config.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/config.d" -MT"Core/Src/config.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/config.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/ov7670.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ov7670.d" -MT"Core/Src/ov7670.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ov7670.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+In file included from ../Core/Inc/config.h:4,
+                 from ../Core/Src/config.c:1:
+../Core/Inc/main.h:52:26: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'PCD_HandleTypeDef'?
+   52 | void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
+      |                          ^~~~~~~~~~~~~~~~~
+      |                          PCD_HandleTypeDef
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+In file included from ../Core/Src/config.c:1:
+../Core/Inc/config.h:6:8: error: unknown type name 'DCMI_HandleTypeDef'
+    6 | extern DCMI_HandleTypeDef hdcmi;
+      |        ^~~~~~~~~~~~~~~~~~
+../Core/Inc/config.h:11:8: error: unknown type name 'TIM_HandleTypeDef'
+   11 | extern TIM_HandleTypeDef htim1;
+      |        ^~~~~~~~~~~~~~~~~
+../Core/Inc/config.h:12:8: error: unknown type name 'TIM_HandleTypeDef'
+   12 | extern TIM_HandleTypeDef htim6;
+      |        ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:20:
+../Core/Inc/main.h:52:26: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'PCD_HandleTypeDef'?
+   52 | void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
+      |                          ^~~~~~~~~~~~~~~~~
+      |                          PCD_HandleTypeDef
+In file included from ../Core/Src/main.c:26:
+../Core/Inc/config.h:6:8: error: unknown type name 'DCMI_HandleTypeDef'
+    6 | extern DCMI_HandleTypeDef hdcmi;
+      |        ^~~~~~~~~~~~~~~~~~
+../Core/Inc/config.h:11:8: error: unknown type name 'TIM_HandleTypeDef'
+   11 | extern TIM_HandleTypeDef htim1;
+      |        ^~~~~~~~~~~~~~~~~
+../Core/Inc/config.h:12:8: error: unknown type name 'TIM_HandleTypeDef'
+   12 | extern TIM_HandleTypeDef htim6;
+      |        ^~~~~~~~~~~~~~~~~
+../Core/Src/config.c:5:1: error: unknown type name 'DCMI_HandleTypeDef'; did you mean 'DMA_HandleTypeDef'?
+    5 | DCMI_HandleTypeDef hdcmi;
+      | ^~~~~~~~~~~~~~~~~~
+      | DMA_HandleTypeDef
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:67:3: warning: implicit declaration of function 'HAL_TIM_PWM_Start'; did you mean 'HAL_PCD_Start'? [-Wimplicit-function-declaration]
+   67 |   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
+      |   ^~~~~~~~~~~~~~~~~
+      |   HAL_PCD_Start
+../Core/Src/config.c:10:1: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'PCD_HandleTypeDef'?
+   10 | TIM_HandleTypeDef htim1;
+      | ^~~~~~~~~~~~~~~~~
+      | PCD_HandleTypeDef
+In file included from ../Core/Inc/config.h:4,
+                 from ../Core/Src/ov7670.c:4:
+../Core/Inc/main.h:52:26: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'PCD_HandleTypeDef'?
+   52 | void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
+      |                          ^~~~~~~~~~~~~~~~~
+      |                          PCD_HandleTypeDef
+In file included from ../Core/Src/ov7670.c:4:
+../Core/Inc/config.h:6:8: error: unknown type name 'DCMI_HandleTypeDef'
+    6 | extern DCMI_HandleTypeDef hdcmi;
+      |        ^~~~~~~~~~~~~~~~~~
+../Core/Inc/config.h:11:8: error: unknown type name 'TIM_HandleTypeDef'
+   11 | extern TIM_HandleTypeDef htim1;
+      |        ^~~~~~~~~~~~~~~~~
+../Core/Inc/config.h:12:8: error: unknown type name 'TIM_HandleTypeDef'
+   12 | extern TIM_HandleTypeDef htim6;
+      |        ^~~~~~~~~~~~~~~~~
+../Core/Src/ov7670.c:8:8: error: unknown type name 'DCMI_HandleTypeDef'
+    8 | extern DCMI_HandleTypeDef hdcmi;
+      |        ^~~~~~~~~~~~~~~~~~
+In file included from ../Core/Src/stm32f4xx_hal_msp.c:22:
+../Core/Inc/main.h:52:26: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'PCD_HandleTypeDef'?
+   52 | void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
+      |                          ^~~~~~~~~~~~~~~~~
+      |                          PCD_HandleTypeDef
+../Core/Src/config.c:11:1: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'PCD_HandleTypeDef'?
+   11 | TIM_HandleTypeDef htim6;
+      | ^~~~~~~~~~~~~~~~~
+      | PCD_HandleTypeDef
+../Core/Src/main.c:67:29: error: 'TIM_CHANNEL_1' undeclared (first use in this function); did you mean 'DMA_CHANNEL_1'?
+   67 |   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
+      |                             ^~~~~~~~~~~~~
+      |                             DMA_CHANNEL_1
+../Core/Src/main.c:67:29: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:65:8: warning: unused variable 'msg' [-Wunused-variable]
+   65 |   char msg[100];
+      |        ^~~
+../Core/Src/config.c: In function 'MX_DCMI_Init':
+../Core/Src/config.c:90:8: error: request for member 'Instance' in something not a structure or union
+   90 |   hdcmi.Instance = DCMI;
+      |        ^
+In file included from ../Core/Src/stm32f4xx_it.c:21:
+../Core/Inc/main.h:52:26: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'PCD_HandleTypeDef'?
+   52 | void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
+      |                          ^~~~~~~~~~~~~~~~~
+      |                          PCD_HandleTypeDef
+../Core/Src/config.c:91:8: error: request for member 'Init' in something not a structure or union
+   91 |   hdcmi.Init.SynchroMode = DCMI_SYNCHRO_HARDWARE;
+      |        ^
+make: *** [Core/Src/subdir.mk:40: Core/Src/stm32f4xx_hal_msp.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:40: Core/Src/main.o] Error 1
+In file included from ../Core/Src/stm32f4xx_it.c:26:
+../Core/Inc/config.h:6:8: error: unknown type name 'DCMI_HandleTypeDef'
+    6 | extern DCMI_HandleTypeDef hdcmi;
+      |        ^~~~~~~~~~~~~~~~~~
+../Core/Inc/config.h:11:8: error: unknown type name 'TIM_HandleTypeDef'
+   11 | extern TIM_HandleTypeDef htim1;
+      |        ^~~~~~~~~~~~~~~~~
+../Core/Inc/config.h:12:8: error: unknown type name 'TIM_HandleTypeDef'
+   12 | extern TIM_HandleTypeDef htim6;
+      |        ^~~~~~~~~~~~~~~~~
+../Core/Src/stm32f4xx_it.c:61:8: error: unknown type name 'DCMI_HandleTypeDef'
+   61 | extern DCMI_HandleTypeDef hdcmi;
+      |        ^~~~~~~~~~~~~~~~~~
+../Core/Src/stm32f4xx_it.c:62:8: error: unknown type name 'TIM_HandleTypeDef'
+   62 | extern TIM_HandleTypeDef htim6;
+      |        ^~~~~~~~~~~~~~~~~
+../Core/Src/ov7670.c: In function 'ov7670_read':
+../Core/Src/ov7670.c:196:66: error: 'ADDR_OV7670_READ' undeclared (first use in this function); did you mean 'ADDR_OV7670'?
+  196 |                         status = HAL_I2C_Master_Transmit(&hi2c2, ADDR_OV7670_READ, &reg, 1, 100);
+      |                                                                  ^~~~~~~~~~~~~~~~
+      |                                                                  ADDR_OV7670
+../Core/Src/ov7670.c:196:66: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/ov7670.c: In function 'ov7670_write':
+../Core/Src/ov7670.c:224:1: warning: control reaches end of non-void function [-Wreturn-type]
+  224 | }
+      | ^
+make: *** [Core/Src/subdir.mk:40: Core/Src/ov7670.o] Error 1
+../Core/Src/stm32f4xx_it.c: In function 'TIM6_DAC_IRQHandler':
+../Core/Src/stm32f4xx_it.c:257:3: warning: implicit declaration of function 'HAL_TIM_IRQHandler'; did you mean 'HAL_PCD_IRQHandler'? [-Wimplicit-function-declaration]
+  257 |   HAL_TIM_IRQHandler(&htim6);
+      |   ^~~~~~~~~~~~~~~~~~
+      |   HAL_PCD_IRQHandler
+../Core/Src/config.c:91:28: error: 'DCMI_SYNCHRO_HARDWARE' undeclared (first use in this function)
+   91 |   hdcmi.Init.SynchroMode = DCMI_SYNCHRO_HARDWARE;
+      |                            ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:91:28: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/config.c:92:8: error: request for member 'Init' in something not a structure or union
+   92 |   hdcmi.Init.PCKPolarity = DCMI_PCKPOLARITY_RISING;
+      |        ^
+../Core/Src/stm32f4xx_it.c: In function 'DCMI_IRQHandler':
+../Core/Src/stm32f4xx_it.c:285:3: warning: implicit declaration of function 'HAL_DCMI_IRQHandler'; did you mean 'HAL_DMA_IRQHandler'? [-Wimplicit-function-declaration]
+  285 |   HAL_DCMI_IRQHandler(&hdcmi);
+      |   ^~~~~~~~~~~~~~~~~~~
+      |   HAL_DMA_IRQHandler
+make: *** [Core/Src/subdir.mk:40: Core/Src/stm32f4xx_it.o] Error 1
+../Core/Src/config.c:92:28: error: 'DCMI_PCKPOLARITY_RISING' undeclared (first use in this function)
+   92 |   hdcmi.Init.PCKPolarity = DCMI_PCKPOLARITY_RISING;
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:93:8: error: request for member 'Init' in something not a structure or union
+   93 |   hdcmi.Init.VSPolarity = DCMI_VSPOLARITY_HIGH;
+      |        ^
+../Core/Src/config.c:93:27: error: 'DCMI_VSPOLARITY_HIGH' undeclared (first use in this function); did you mean 'DMA_PRIORITY_HIGH'?
+   93 |   hdcmi.Init.VSPolarity = DCMI_VSPOLARITY_HIGH;
+      |                           ^~~~~~~~~~~~~~~~~~~~
+      |                           DMA_PRIORITY_HIGH
+../Core/Src/config.c:94:8: error: request for member 'Init' in something not a structure or union
+   94 |   hdcmi.Init.HSPolarity = DCMI_HSPOLARITY_LOW;
+      |        ^
+../Core/Src/config.c:94:27: error: 'DCMI_HSPOLARITY_LOW' undeclared (first use in this function); did you mean 'DMA_PRIORITY_LOW'?
+   94 |   hdcmi.Init.HSPolarity = DCMI_HSPOLARITY_LOW;
+      |                           ^~~~~~~~~~~~~~~~~~~
+      |                           DMA_PRIORITY_LOW
+../Core/Src/config.c:95:8: error: request for member 'Init' in something not a structure or union
+   95 |   hdcmi.Init.CaptureRate = DCMI_CR_ALL_FRAME;
+      |        ^
+../Core/Src/config.c:95:28: error: 'DCMI_CR_ALL_FRAME' undeclared (first use in this function)
+   95 |   hdcmi.Init.CaptureRate = DCMI_CR_ALL_FRAME;
+      |                            ^~~~~~~~~~~~~~~~~
+../Core/Src/config.c:96:8: error: request for member 'Init' in something not a structure or union
+   96 |   hdcmi.Init.ExtendedDataMode = DCMI_EXTEND_DATA_8B;
+      |        ^
+../Core/Src/config.c:96:33: error: 'DCMI_EXTEND_DATA_8B' undeclared (first use in this function)
+   96 |   hdcmi.Init.ExtendedDataMode = DCMI_EXTEND_DATA_8B;
+      |                                 ^~~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:97:8: error: request for member 'Init' in something not a structure or union
+   97 |   hdcmi.Init.JPEGMode = DCMI_JPEG_DISABLE;
+      |        ^
+../Core/Src/config.c:97:25: error: 'DCMI_JPEG_DISABLE' undeclared (first use in this function)
+   97 |   hdcmi.Init.JPEGMode = DCMI_JPEG_DISABLE;
+      |                         ^~~~~~~~~~~~~~~~~
+../Core/Src/config.c:98:8: error: request for member 'Init' in something not a structure or union
+   98 |   hdcmi.Init.ByteSelectMode = DCMI_BSM_ALL;
+      |        ^
+../Core/Src/config.c:98:31: error: 'DCMI_BSM_ALL' undeclared (first use in this function)
+   98 |   hdcmi.Init.ByteSelectMode = DCMI_BSM_ALL;
+      |                               ^~~~~~~~~~~~
+../Core/Src/config.c:99:8: error: request for member 'Init' in something not a structure or union
+   99 |   hdcmi.Init.ByteSelectStart = DCMI_OEBS_ODD;
+      |        ^
+../Core/Src/config.c:99:32: error: 'DCMI_OEBS_ODD' undeclared (first use in this function); did you mean 'DCMI_CR_OEBS_Msk'?
+   99 |   hdcmi.Init.ByteSelectStart = DCMI_OEBS_ODD;
+      |                                ^~~~~~~~~~~~~
+      |                                DCMI_CR_OEBS_Msk
+../Core/Src/config.c:100:8: error: request for member 'Init' in something not a structure or union
+  100 |   hdcmi.Init.LineSelectMode = DCMI_LSM_ALL;
+      |        ^
+../Core/Src/config.c:100:31: error: 'DCMI_LSM_ALL' undeclared (first use in this function)
+  100 |   hdcmi.Init.LineSelectMode = DCMI_LSM_ALL;
+      |                               ^~~~~~~~~~~~
+../Core/Src/config.c:101:8: error: request for member 'Init' in something not a structure or union
+  101 |   hdcmi.Init.LineSelectStart = DCMI_OELS_ODD;
+      |        ^
+../Core/Src/config.c:101:32: error: 'DCMI_OELS_ODD' undeclared (first use in this function); did you mean 'DCMI_CR_OELS_Msk'?
+  101 |   hdcmi.Init.LineSelectStart = DCMI_OELS_ODD;
+      |                                ^~~~~~~~~~~~~
+      |                                DCMI_CR_OELS_Msk
+../Core/Src/config.c:102:7: warning: implicit declaration of function 'HAL_DCMI_Init'; did you mean 'HAL_DMA_Init'? [-Wimplicit-function-declaration]
+  102 |   if (HAL_DCMI_Init(&hdcmi) != HAL_OK)
+      |       ^~~~~~~~~~~~~
+      |       HAL_DMA_Init
+../Core/Src/config.c: In function 'MX_TIM1_Init':
+../Core/Src/config.c:158:3: error: unknown type name 'TIM_MasterConfigTypeDef'
+  158 |   TIM_MasterConfigTypeDef sMasterConfig = {0};
+      |   ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:159:3: error: unknown type name 'TIM_OC_InitTypeDef'; did you mean 'I2C_InitTypeDef'?
+  159 |   TIM_OC_InitTypeDef sConfigOC = {0};
+      |   ^~~~~~~~~~~~~~~~~~
+      |   I2C_InitTypeDef
+../Core/Src/config.c:160:3: error: unknown type name 'TIM_BreakDeadTimeConfigTypeDef'
+  160 |   TIM_BreakDeadTimeConfigTypeDef sBreakDeadTimeConfig = {0};
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:165:8: error: request for member 'Instance' in something not a structure or union
+  165 |   htim1.Instance = TIM1;
+      |        ^
+../Core/Src/config.c:166:8: error: request for member 'Init' in something not a structure or union
+  166 |   htim1.Init.Prescaler = 0;
+      |        ^
+../Core/Src/config.c:167:8: error: request for member 'Init' in something not a structure or union
+  167 |   htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
+      |        ^
+../Core/Src/config.c:167:28: error: 'TIM_COUNTERMODE_UP' undeclared (first use in this function)
+  167 |   htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
+      |                            ^~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:168:8: error: request for member 'Init' in something not a structure or union
+  168 |   htim1.Init.Period = 20;
+      |        ^
+../Core/Src/config.c:169:8: error: request for member 'Init' in something not a structure or union
+  169 |   htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+      |        ^
+../Core/Src/config.c:169:30: error: 'TIM_CLOCKDIVISION_DIV1' undeclared (first use in this function)
+  169 |   htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+      |                              ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:170:8: error: request for member 'Init' in something not a structure or union
+  170 |   htim1.Init.RepetitionCounter = 0;
+      |        ^
+../Core/Src/config.c:171:8: error: request for member 'Init' in something not a structure or union
+  171 |   htim1.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
+      |        ^
+../Core/Src/config.c:171:34: error: 'TIM_AUTORELOAD_PRELOAD_ENABLE' undeclared (first use in this function)
+  171 |   htim1.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:172:7: warning: implicit declaration of function 'HAL_TIM_PWM_Init'; did you mean 'HAL_PCD_Init'? [-Wimplicit-function-declaration]
+  172 |   if (HAL_TIM_PWM_Init(&htim1) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~
+      |       HAL_PCD_Init
+../Core/Src/config.c:176:16: error: request for member 'MasterOutputTrigger' in something not a structure or union
+  176 |   sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+      |                ^
+../Core/Src/config.c:176:39: error: 'TIM_TRGO_RESET' undeclared (first use in this function)
+  176 |   sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+      |                                       ^~~~~~~~~~~~~~
+../Core/Src/config.c:177:16: error: request for member 'MasterSlaveMode' in something not a structure or union
+  177 |   sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+      |                ^
+../Core/Src/config.c:177:35: error: 'TIM_MASTERSLAVEMODE_DISABLE' undeclared (first use in this function)
+  177 |   sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:178:7: warning: implicit declaration of function 'HAL_TIMEx_MasterConfigSynchronization'; did you mean 'HAL_TIM_SlaveConfigSynchronization'? [-Wimplicit-function-declaration]
+  178 |   if (HAL_TIMEx_MasterConfigSynchronization(&htim1, &sMasterConfig) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |       HAL_TIM_SlaveConfigSynchronization
+../Core/Src/config.c:182:12: error: request for member 'OCMode' in something not a structure or union
+  182 |   sConfigOC.OCMode = TIM_OCMODE_PWM1;
+      |            ^
+../Core/Src/config.c:182:22: error: 'TIM_OCMODE_PWM1' undeclared (first use in this function)
+  182 |   sConfigOC.OCMode = TIM_OCMODE_PWM1;
+      |                      ^~~~~~~~~~~~~~~
+../Core/Src/config.c:183:12: error: request for member 'Pulse' in something not a structure or union
+  183 |   sConfigOC.Pulse = 10;
+      |            ^
+../Core/Src/config.c:184:12: error: request for member 'OCPolarity' in something not a structure or union
+  184 |   sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+      |            ^
+../Core/Src/config.c:184:26: error: 'TIM_OCPOLARITY_HIGH' undeclared (first use in this function)
+  184 |   sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+      |                          ^~~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:185:12: error: request for member 'OCNPolarity' in something not a structure or union
+  185 |   sConfigOC.OCNPolarity = TIM_OCNPOLARITY_HIGH;
+      |            ^
+../Core/Src/config.c:185:27: error: 'TIM_OCNPOLARITY_HIGH' undeclared (first use in this function)
+  185 |   sConfigOC.OCNPolarity = TIM_OCNPOLARITY_HIGH;
+      |                           ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:186:12: error: request for member 'OCFastMode' in something not a structure or union
+  186 |   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+      |            ^
+../Core/Src/config.c:186:26: error: 'TIM_OCFAST_DISABLE' undeclared (first use in this function)
+  186 |   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+      |                          ^~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:187:12: error: request for member 'OCIdleState' in something not a structure or union
+  187 |   sConfigOC.OCIdleState = TIM_OCIDLESTATE_RESET;
+      |            ^
+../Core/Src/config.c:187:27: error: 'TIM_OCIDLESTATE_RESET' undeclared (first use in this function); did you mean 'HAL_PCD_STATE_RESET'?
+  187 |   sConfigOC.OCIdleState = TIM_OCIDLESTATE_RESET;
+      |                           ^~~~~~~~~~~~~~~~~~~~~
+      |                           HAL_PCD_STATE_RESET
+../Core/Src/config.c:188:12: error: request for member 'OCNIdleState' in something not a structure or union
+  188 |   sConfigOC.OCNIdleState = TIM_OCNIDLESTATE_RESET;
+      |            ^
+../Core/Src/config.c:188:28: error: 'TIM_OCNIDLESTATE_RESET' undeclared (first use in this function); did you mean 'HAL_PCD_STATE_RESET'?
+  188 |   sConfigOC.OCNIdleState = TIM_OCNIDLESTATE_RESET;
+      |                            ^~~~~~~~~~~~~~~~~~~~~~
+      |                            HAL_PCD_STATE_RESET
+../Core/Src/config.c:189:7: warning: implicit declaration of function 'HAL_TIM_PWM_ConfigChannel' [-Wimplicit-function-declaration]
+  189 |   if (HAL_TIM_PWM_ConfigChannel(&htim1, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:189:53: error: 'TIM_CHANNEL_1' undeclared (first use in this function); did you mean 'DMA_CHANNEL_1'?
+  189 |   if (HAL_TIM_PWM_ConfigChannel(&htim1, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+      |                                                     ^~~~~~~~~~~~~
+      |                                                     DMA_CHANNEL_1
+../Core/Src/config.c:193:23: error: request for member 'OffStateRunMode' in something not a structure or union
+  193 |   sBreakDeadTimeConfig.OffStateRunMode = TIM_OSSR_DISABLE;
+      |                       ^
+../Core/Src/config.c:193:42: error: 'TIM_OSSR_DISABLE' undeclared (first use in this function)
+  193 |   sBreakDeadTimeConfig.OffStateRunMode = TIM_OSSR_DISABLE;
+      |                                          ^~~~~~~~~~~~~~~~
+../Core/Src/config.c:194:23: error: request for member 'OffStateIDLEMode' in something not a structure or union
+  194 |   sBreakDeadTimeConfig.OffStateIDLEMode = TIM_OSSI_DISABLE;
+      |                       ^
+../Core/Src/config.c:194:43: error: 'TIM_OSSI_DISABLE' undeclared (first use in this function)
+  194 |   sBreakDeadTimeConfig.OffStateIDLEMode = TIM_OSSI_DISABLE;
+      |                                           ^~~~~~~~~~~~~~~~
+../Core/Src/config.c:195:23: error: request for member 'LockLevel' in something not a structure or union
+  195 |   sBreakDeadTimeConfig.LockLevel = TIM_LOCKLEVEL_OFF;
+      |                       ^
+../Core/Src/config.c:195:36: error: 'TIM_LOCKLEVEL_OFF' undeclared (first use in this function)
+  195 |   sBreakDeadTimeConfig.LockLevel = TIM_LOCKLEVEL_OFF;
+      |                                    ^~~~~~~~~~~~~~~~~
+../Core/Src/config.c:196:23: error: request for member 'DeadTime' in something not a structure or union
+  196 |   sBreakDeadTimeConfig.DeadTime = 0;
+      |                       ^
+../Core/Src/config.c:197:23: error: request for member 'BreakState' in something not a structure or union
+  197 |   sBreakDeadTimeConfig.BreakState = TIM_BREAK_DISABLE;
+      |                       ^
+../Core/Src/config.c:197:37: error: 'TIM_BREAK_DISABLE' undeclared (first use in this function)
+  197 |   sBreakDeadTimeConfig.BreakState = TIM_BREAK_DISABLE;
+      |                                     ^~~~~~~~~~~~~~~~~
+../Core/Src/config.c:198:23: error: request for member 'BreakPolarity' in something not a structure or union
+  198 |   sBreakDeadTimeConfig.BreakPolarity = TIM_BREAKPOLARITY_HIGH;
+      |                       ^
+../Core/Src/config.c:198:40: error: 'TIM_BREAKPOLARITY_HIGH' undeclared (first use in this function)
+  198 |   sBreakDeadTimeConfig.BreakPolarity = TIM_BREAKPOLARITY_HIGH;
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:199:23: error: request for member 'AutomaticOutput' in something not a structure or union
+  199 |   sBreakDeadTimeConfig.AutomaticOutput = TIM_AUTOMATICOUTPUT_DISABLE;
+      |                       ^
+../Core/Src/config.c:199:42: error: 'TIM_AUTOMATICOUTPUT_DISABLE' undeclared (first use in this function)
+  199 |   sBreakDeadTimeConfig.AutomaticOutput = TIM_AUTOMATICOUTPUT_DISABLE;
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:200:7: warning: implicit declaration of function 'HAL_TIMEx_ConfigBreakDeadTime' [-Wimplicit-function-declaration]
+  200 |   if (HAL_TIMEx_ConfigBreakDeadTime(&htim1, &sBreakDeadTimeConfig) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:207:3: warning: implicit declaration of function 'HAL_TIM_MspPostInit'; did you mean 'HAL_PCD_MspDeInit'? [-Wimplicit-function-declaration]
+  207 |   HAL_TIM_MspPostInit(&htim1);
+      |   ^~~~~~~~~~~~~~~~~~~
+      |   HAL_PCD_MspDeInit
+../Core/Src/config.c: In function 'MX_TIM6_Init':
+../Core/Src/config.c:223:3: error: unknown type name 'TIM_MasterConfigTypeDef'
+  223 |   TIM_MasterConfigTypeDef sMasterConfig = {0};
+      |   ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:228:8: error: request for member 'Instance' in something not a structure or union
+  228 |   htim6.Instance = TIM6;
+      |        ^
+../Core/Src/config.c:229:8: error: request for member 'Init' in something not a structure or union
+  229 |   htim6.Init.Prescaler = 0;
+      |        ^
+../Core/Src/config.c:230:8: error: request for member 'Init' in something not a structure or union
+  230 |   htim6.Init.CounterMode = TIM_COUNTERMODE_UP;
+      |        ^
+../Core/Src/config.c:230:28: error: 'TIM_COUNTERMODE_UP' undeclared (first use in this function)
+  230 |   htim6.Init.CounterMode = TIM_COUNTERMODE_UP;
+      |                            ^~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:231:8: error: request for member 'Init' in something not a structure or union
+  231 |   htim6.Init.Period = 65535;
+      |        ^
+../Core/Src/config.c:232:8: error: request for member 'Init' in something not a structure or union
+  232 |   htim6.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+      |        ^
+../Core/Src/config.c:232:34: error: 'TIM_AUTORELOAD_PRELOAD_DISABLE' undeclared (first use in this function)
+  232 |   htim6.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/config.c:233:7: warning: implicit declaration of function 'HAL_TIM_Base_Init' [-Wimplicit-function-declaration]
+  233 |   if (HAL_TIM_Base_Init(&htim6) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~
+../Core/Src/config.c:237:16: error: request for member 'MasterOutputTrigger' in something not a structure or union
+  237 |   sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+      |                ^
+../Core/Src/config.c:237:39: error: 'TIM_TRGO_RESET' undeclared (first use in this function)
+  237 |   sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+      |                                       ^~~~~~~~~~~~~~
+../Core/Src/config.c:238:16: error: request for member 'MasterSlaveMode' in something not a structure or union
+  238 |   sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+      |                ^
+../Core/Src/config.c:238:35: error: 'TIM_MASTERSLAVEMODE_DISABLE' undeclared (first use in this function)
+  238 |   sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/config.o] Error 1
+"make -j7 all" terminated with exit code 2. Build might be incomplete.
+
+12:16:49 Build Failed. 110 errors, 12 warnings. (took 2s.439ms)
+

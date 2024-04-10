@@ -1,0 +1,10 @@
+15:45:00 **** Build of configuration Debug for project bonus ****
+make -j7 all 
+arm-none-eabi-size  bonus.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16464	     20	   3212	  19696	   4cf0	bonus.elf
+Finished building: default.size.stdout
+ 
+
+15:45:00 Build Finished. 0 errors, 0 warnings. (took 330ms)
+

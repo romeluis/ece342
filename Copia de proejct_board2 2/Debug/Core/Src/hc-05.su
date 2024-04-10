@@ -1,0 +1,8 @@
+../Core/Src/hc-05.c:46:6:hc05Init	16	static
+../Core/Src/hc-05.c:50:6:checkConnection	8	static
+../Core/Src/hc-05.c:60:6:cancelTransfer	8	static
+../Core/Src/hc-05.c:65:6:sendData	16	static
+../Core/Src/hc-05.c:94:6:recieveData	24	static
+../Core/Src/hc-05.c:121:6:shiftSizeBuffer	4	static
+../Core/Src/hc-05.c:134:6:HAL_UART_RxCpltCallback	16	static
+../Core/Src/hc-05.c:150:6:HAL_UART_TxCpltCallback	16	static

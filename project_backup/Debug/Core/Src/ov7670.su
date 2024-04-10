@@ -1,0 +1,5 @@
+../Core/Src/ov7670.c:158:9:ov7670_init	24	static
+../Core/Src/ov7670.c:203:9:ov7670_read	40	static
+../Core/Src/ov7670.c:237:19:ov7670_write	40	static
+../Core/Src/ov7670.c:277:6:ov7670_snapshot	16	static
+../Core/Src/ov7670.c:281:6:ov7670_capture	16	static

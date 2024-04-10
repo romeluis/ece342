@@ -1,0 +1,80 @@
+/*
+ * hc-05.c
+ *
+ *  Created on: Apr 9, 2024
+ *      Author: romeluis
+ */
+
+//Includes
+#include "hc-05.h"
+#include "main.h"
+#include <stdbool.h>
+
+//Defines
+#define OK_SIGNAL "OK"
+#define SIZE_BUFFER_LENGTH 10
+#define DATA_BUFFER_LENGTH 144*174 + 100
+
+//Enums
+typedef enum {
+	IDLE = 0,
+	TRANSMITTING,
+	RECEIVING,
+	WAITING_CONFIRMATION,
+	DISCONNECTED
+} BluetoothState;
+
+//Variables
+BluetoothState moduleState = DISCONNECTED;
+
+uint8_t sizeBuffer[SIZE_BUFFER_LENGTH];
+uint8_t dataBuffer[DATA_BUFFER_LENGTH];
+
+bool checkConnection() {
+	if (HAL_GPIO_ReadPin(BT_STATE_GPIO_Port, BT_STATE_Pin)) {
+		moduleState = IDLE;
+		return true;
+	} else {
+		moduleState = DISCONNECTED;
+		return false;
+	}
+}
+
+bool cancelTransfer() {
+	return true;
+}
+
+bool sendData(uint8_t* pdata, uint16_t size) {
+	return true;
+}
+
+bool recieveData(uint8_t* pdata) {
+	//Ensure module is available
+	checkConnection();
+	if (moduleState != IDLE) {
+		return false;
+	}
+
+	//Start UART transfer to receive data size
+	HAL_UART_Receive_DMA(&huart2, sizeBuffer, SIZE_BUFFER_LENGTH);
+
+	//Convert string to integer
+	if (sizeBuffer[0] == 0) { //Sometimes the first character is zero so the number must be shifted
+		shiftBuffer;
+	}
+
+	uint16_t dataSize = atoi((char*)sizeBuffer);
+}
+
+void shiftSizeBuffer() {
+	sizeBuffer[0] = sizeBuffer[1];
+	sizeBuffer[1] = sizeBuffer[2];
+	sizeBuffer[2] = sizeBuffer[3];
+	sizeBuffer[3] = sizeBuffer[4];
+	sizeBuffer[4] = sizeBuffer[5];
+	sizeBuffer[5] = sizeBuffer[6];
+	sizeBuffer[6] = sizeBuffer[7];
+	sizeBuffer[7] = sizeBuffer[8];
+	sizeBuffer[8] = sizeBuffer[9];
+	sizeBuffer[9] = 0;
+}

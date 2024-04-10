@@ -1,0 +1,7 @@
+../Core/Src/config.c:13:6:SystemClock_Config	3
+../Core/Src/config.c:61:6:MX_DAC_Init	3
+../Core/Src/config.c:101:6:MX_TIM6_Init	3
+../Core/Src/config.c:139:6:MX_USART3_Init	2
+../Core/Src/config.c:173:6:MX_GPIO_Init	1
+../Core/Src/config.c:237:6:print_msg	1
+../Core/Src/config.c:246:6:Error_Handler	1

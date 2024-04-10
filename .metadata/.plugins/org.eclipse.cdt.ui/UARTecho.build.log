@@ -1,0 +1,10 @@
+18:07:17 **** Incremental Build of configuration Debug for project UARTecho ****
+make -j7 all 
+arm-none-eabi-size  UARTecho.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21052	    112	  28752	  49916	   c2fc	UARTecho.elf
+Finished building: default.size.stdout
+ 
+
+18:07:18 Build Finished. 0 errors, 0 warnings. (took 276ms)
+

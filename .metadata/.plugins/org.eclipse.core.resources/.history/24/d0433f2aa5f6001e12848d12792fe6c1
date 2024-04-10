@@ -1,0 +1,51 @@
+/*
+ * hc-05.c
+ *
+ *  Created on: Apr 9, 2024
+ *      Author: romeluis
+ */
+
+//Includes
+#include "hc-05.h"
+#include "main.h"
+#include <stdbool.h>
+
+//Defines
+#define OK_SIGNAL "OK"
+
+//Enums
+typedef enum {
+	IDLE = 0,
+	TRANSMITTING,
+	RECEIVING,
+	WAITING_CONFIRMATION,
+	DISCONNECTED
+} BluetoothState;
+
+//Vars
+BluetoothState moduleState = DISCONNECTED;
+
+bool checkConnection() {
+	if (HAL_GPIO_ReadPin(BT_STATE_GPIO_Port, BT_STATE_Pin)) {
+		moduleState = IDLE;
+		return true;
+	} else {
+		moduleState = DISCONNECTED;
+		return false;
+	}
+}
+
+bool cancelTransfer() {
+
+}
+
+bool sendData(uint8_t* pdata, uint16_t size) {
+}
+
+bool recieveData(uint8_t* pdata) {
+	checkConnection();
+
+	if (moduleState != IDLE) {
+		return false;
+	}
+}

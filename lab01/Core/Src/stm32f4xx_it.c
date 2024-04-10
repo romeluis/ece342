@@ -167,7 +167,7 @@ void SysTick_Handler(void)
   */
 
 uint32_t lastTime = 0;
-uint32_t interval = 150;
+uint32_t interval = 125;
 uint32_t thisTime;
 
 

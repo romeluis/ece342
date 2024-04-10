@@ -1,0 +1,10 @@
+../Core/Src/hc-05.c:51:6:hc05Init	1
+../Core/Src/hc-05.c:56:6:checkConnection	2
+../Core/Src/hc-05.c:66:6:cancelTransfer	1
+../Core/Src/hc-05.c:71:6:sendData	6
+../Core/Src/hc-05.c:105:6:receiveData	4
+../Core/Src/hc-05.c:133:6:requestNextFrame	2
+../Core/Src/hc-05.c:142:6:waitForNextFrameRequest	4
+../Core/Src/hc-05.c:159:6:shiftSizeBuffer	1
+../Core/Src/hc-05.c:172:6:HAL_UART_RxCpltCallback	5
+../Core/Src/hc-05.c:193:6:HAL_UART_TxCpltCallback	6

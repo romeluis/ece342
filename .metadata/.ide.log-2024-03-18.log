@@ -1,0 +1,277 @@
+2024-03-19 14:43:01,932 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C2, RCC, SYS, TIM1, USART3, USB_OTG_FS]
+2024-03-19 14:43:02,232 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-19 14:43:02,565 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:02,565 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:02,566 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:02,566 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:02,686 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:02,686 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:02,777 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:02,778 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:02,963 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C2, RCC, SYS, TIM1, USART3, USB_OTG_FS]
+2024-03-19 14:43:03,132 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-19 14:43:09,832 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C2, RCC, SYS, TIM1, USART3, USB_OTG_FS]
+2024-03-19 14:43:09,963 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-19 14:43:10,081 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C2, RCC, SYS, TIM1, USART3, USB_OTG_FS]
+2024-03-19 14:43:10,219 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-19 14:43:10,467 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:10,470 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:10,470 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:10,470 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:10,557 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:10,557 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:10,613 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:10,613 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:10,711 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C2, RCC, SYS, TIM1, USART3, USB_OTG_FS]
+2024-03-19 14:43:10,963 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-19 14:43:17,410 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C2, RCC, SYS, TIM1, USART3, USB_OTG_FS]
+2024-03-19 14:43:17,538 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-19 14:43:17,687 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:17,688 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:17,688 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:17,688 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:17,748 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:17,748 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:17,804 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:17,805 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:17,859 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C2, RCC, SYS, TIM1, USART3, USB_OTG_FS]
+2024-03-19 14:43:17,916 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-19 14:43:48,846 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C2, RCC, SYS, TIM1, USART3, USB_OTG_FS]
+2024-03-19 14:43:49,098 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-19 14:43:49,283 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C2, RCC, SYS, TIM1, USART3, USB_OTG_FS]
+2024-03-19 14:43:49,362 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-19 14:43:49,514 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:49,514 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:49,515 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:49,515 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:49,589 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:49,589 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:49,648 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:49,648 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:43:49,686 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C2, RCC, SYS, TIM1, USART3, USB_OTG_FS]
+2024-03-19 14:43:49,752 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-19 14:58:29,475 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C2, RCC, SYS, TIM1, USART3, USB_OTG_FS]
+2024-03-19 14:58:29,604 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-19 14:58:29,730 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:58:29,731 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:58:29,731 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:58:29,731 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:58:29,787 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:58:29,788 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:58:29,837 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:58:29,837 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:58:29,882 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C2, RCC, SYS, TIM1, USART3, USB_OTG_FS]
+2024-03-19 14:58:29,948 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-19 14:58:41,468 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C2, RCC, SYS, TIM1, USART3, USB_OTG_FS]
+2024-03-19 14:58:41,591 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-19 14:58:41,727 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:58:41,727 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:58:41,727 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:58:41,727 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:58:41,788 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:58:41,788 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:58:41,847 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 14:58:41,847 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 14:58:41,891 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C2, RCC, SYS, TIM1, USART3, USB_OTG_FS]
+2024-03-19 14:58:41,935 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-19 15:06:49,098 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 855729880 Bytes (1073741824)
+2024-03-19 15:06:51,125 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 655651856 Bytes (1073741824)
+2024-03-19 15:06:52,695 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 775715856 Bytes (1073741824)
+2024-03-19 15:06:53,666 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM6_7
+2024-03-19 15:06:53,669 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2024-03-19 15:06:53,669 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-19 15:06:53,669 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-19 15:06:53,669 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-03-19 15:06:53,669 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DCMI
+2024-03-19 15:06:53,669 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2024-03-19 15:06:53,669 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-19 15:06:53,669 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-03-19 15:06:53,669 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2024-03-19 15:06:53,673 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-19 15:06:53,675 [INFO] CodeGenerator:807 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.10.0.202311202037//db/
+2024-03-19 15:06:53,714 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 15:06:53,715 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 15:06:54,155 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/license.tmp_save
+2024-03-19 15:06:54,755 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/license.tmp
+2024-03-19 15:06:54,919 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/gpio.tmp_save
+2024-03-19 15:06:55,290 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/gpio.tmp
+2024-03-19 15:06:56,191 [WARN] IPConfigManager:2946 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2024-03-19 15:06:56,253 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/dma.tmp_save
+2024-03-19 15:06:56,384 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/dma.tmp
+2024-03-19 15:06:56,386 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/dma_GV.tmp_save
+2024-03-19 15:06:56,449 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/dma_GV.tmp
+2024-03-19 15:06:56,490 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Src/stm32f4xx_it.c_save
+2024-03-19 15:06:56,738 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Src/stm32f4xx_it.c
+2024-03-19 15:06:56,741 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Inc/stm32f4xx_it.h_save
+2024-03-19 15:06:56,919 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Inc/stm32f4xx_it.h
+2024-03-19 15:06:56,955 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Src/stm32f4xx_hal_msp.c_save
+2024-03-19 15:06:57,203 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Src/stm32f4xx_hal_msp.c
+2024-03-19 15:06:57,205 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/system.tmp_save
+2024-03-19 15:06:57,271 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/system.tmp
+2024-03-19 15:06:57,277 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Inc/stm32f4xx_hal_conf.h_save
+2024-03-19 15:06:57,411 [INFO] CodeEngine:335 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Inc/stm32f4xx_hal_conf.h
+2024-03-19 15:06:57,544 [WARN] IPConfigManager:2946 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-03-19 15:06:57,558 [WARN] IPConfigManager:3440 - IP not found : TIM
+2024-03-19 15:06:57,558 [WARN] IPConfigManager:3440 - IP not found : USB_OTG
+2024-03-19 15:06:57,560 [WARN] CodeGenerator:3939 - IP not found : null
+2024-03-19 15:06:57,560 [WARN] CodeGenerator:3939 - IP not found : null
+2024-03-19 15:06:57,569 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Inc/main.h_save
+2024-03-19 15:06:57,727 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Inc/main.h
+2024-03-19 15:06:57,731 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Src/main.c_save
+2024-03-19 15:06:58,087 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Src/main.c
+2024-03-19 15:06:58,644 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 89mS.
+2024-03-19 15:06:58,653 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-03-19 15:06:59,085 [INFO] ConfigFileManager:1495 - The Die is : DIE421
+2024-03-19 15:06:59,110 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2024-03-19 15:06:59,120 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2024-03-19 15:06:59,137 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2024-03-19 15:06:59,147 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2024-03-19 15:06:59,156 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2024-03-19 15:06:59,161 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST
+2024-03-19 15:07:03,614 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 4942mS.
+2024-03-19 15:07:03,629 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 5mS.
+2024-03-19 15:07:03,643 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-19 15:07:36,984 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C2, RCC, SYS, TIM1, USART3, USB_OTG_FS]
+2024-03-19 15:07:38,721 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 765827024 Bytes (1073741824)
+2024-03-19 15:07:40,004 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 793090000 Bytes (1073741824)
+2024-03-19 15:07:42,292 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 708608384 Bytes (1073741824)
+2024-03-19 15:07:42,650 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM6_7
+2024-03-19 15:07:42,650 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2024-03-19 15:07:42,650 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-19 15:07:42,650 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-19 15:07:42,650 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-03-19 15:07:42,650 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DCMI
+2024-03-19 15:07:42,650 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2024-03-19 15:07:42,650 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-19 15:07:42,650 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-03-19 15:07:42,651 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2024-03-19 15:07:42,651 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-19 15:07:42,652 [INFO] CodeGenerator:807 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.10.0.202311202037//db/
+2024-03-19 15:07:42,660 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-03-19 15:07:42,660 [INFO] Argument:327 - 	 sub Args: 
+2024-03-19 15:07:42,660 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream1
+2024-03-19 15:07:42,660 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream1
+2024-03-19 15:07:42,660 [INFO] Argument:325 - Argument : Initvalue: null
+2024-03-19 15:07:42,660 [INFO] Argument:327 - 	 sub Args: 
+2024-03-19 15:07:42,660 [INFO] Argument:325 - Argument : Channelvalue: DMA_CHANNEL_1
+2024-03-19 15:07:42,660 [INFO] Argument:335 - Argument : Channelvalue: DMA_CHANNEL_1
+2024-03-19 15:07:42,660 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-03-19 15:07:42,660 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-03-19 15:07:42,660 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-03-19 15:07:42,660 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-03-19 15:07:42,660 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-03-19 15:07:42,661 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-03-19 15:07:42,661 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-03-19 15:07:42,661 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-03-19 15:07:42,661 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-03-19 15:07:42,661 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-03-19 15:07:42,661 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2024-03-19 15:07:42,661 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2024-03-19 15:07:42,661 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2024-03-19 15:07:42,661 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2024-03-19 15:07:42,661 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2024-03-19 15:07:42,661 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2024-03-19 15:07:42,661 [INFO] Argument:325 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2024-03-19 15:07:42,661 [INFO] Argument:335 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2024-03-19 15:07:42,661 [INFO] Argument:325 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2024-03-19 15:07:42,661 [INFO] Argument:335 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2024-03-19 15:07:42,661 [INFO] Argument:325 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2024-03-19 15:07:42,661 [INFO] Argument:335 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2024-03-19 15:07:42,661 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-03-19 15:07:42,661 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-03-19 15:07:42,661 [INFO] Argument:325 - Argument : Statevalue: null
+2024-03-19 15:07:42,661 [INFO] Argument:335 - Argument : Statevalue: null
+2024-03-19 15:07:42,661 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-03-19 15:07:42,661 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-03-19 15:07:42,661 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-03-19 15:07:42,661 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-03-19 15:07:42,661 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-03-19 15:07:42,661 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-03-19 15:07:42,661 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-03-19 15:07:42,661 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-03-19 15:07:42,661 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-03-19 15:07:42,661 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-03-19 15:07:42,661 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-03-19 15:07:42,661 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-03-19 15:07:42,665 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-19 15:07:42,665 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-19 15:07:42,716 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-03-19 15:07:42,716 [INFO] Argument:327 - 	 sub Args: 
+2024-03-19 15:07:42,716 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Stream3
+2024-03-19 15:07:42,716 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Stream3
+2024-03-19 15:07:42,716 [INFO] Argument:325 - Argument : Initvalue: null
+2024-03-19 15:07:42,716 [INFO] Argument:327 - 	 sub Args: 
+2024-03-19 15:07:42,716 [INFO] Argument:325 - Argument : Channelvalue: DMA_CHANNEL_4
+2024-03-19 15:07:42,716 [INFO] Argument:335 - Argument : Channelvalue: DMA_CHANNEL_4
+2024-03-19 15:07:42,716 [INFO] Argument:325 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-03-19 15:07:42,716 [INFO] Argument:335 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-03-19 15:07:42,716 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-03-19 15:07:42,716 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-03-19 15:07:42,716 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-03-19 15:07:42,716 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-03-19 15:07:42,716 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2024-03-19 15:07:42,716 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2024-03-19 15:07:42,716 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2024-03-19 15:07:42,716 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2024-03-19 15:07:42,716 [INFO] Argument:325 - Argument : Modevalue: DMA_NORMAL
+2024-03-19 15:07:42,716 [INFO] Argument:335 - Argument : Modevalue: DMA_NORMAL
+2024-03-19 15:07:42,716 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-03-19 15:07:42,716 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-03-19 15:07:42,716 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2024-03-19 15:07:42,716 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2024-03-19 15:07:42,716 [INFO] Argument:325 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2024-03-19 15:07:42,716 [INFO] Argument:335 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2024-03-19 15:07:42,716 [INFO] Argument:325 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2024-03-19 15:07:42,716 [INFO] Argument:335 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2024-03-19 15:07:42,716 [INFO] Argument:325 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2024-03-19 15:07:42,716 [INFO] Argument:335 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2024-03-19 15:07:42,716 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-03-19 15:07:42,716 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-03-19 15:07:42,716 [INFO] Argument:325 - Argument : Statevalue: null
+2024-03-19 15:07:42,717 [INFO] Argument:335 - Argument : Statevalue: null
+2024-03-19 15:07:42,717 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-03-19 15:07:42,717 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-03-19 15:07:42,717 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-03-19 15:07:42,717 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-03-19 15:07:42,717 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-03-19 15:07:42,717 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-03-19 15:07:42,717 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-03-19 15:07:42,717 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-03-19 15:07:42,718 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-03-19 15:07:42,718 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-03-19 15:07:42,718 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-03-19 15:07:42,718 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-03-19 15:07:42,905 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/license.tmp_save
+2024-03-19 15:07:43,072 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/license.tmp
+2024-03-19 15:07:43,297 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/gpio.tmp_save
+2024-03-19 15:07:43,442 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/gpio.tmp
+2024-03-19 15:07:44,160 [WARN] IPConfigManager:2946 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2024-03-19 15:07:44,295 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/dma.tmp_save
+2024-03-19 15:07:44,410 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/dma.tmp
+2024-03-19 15:07:44,413 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/dma_GV.tmp_save
+2024-03-19 15:07:44,464 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/dma_GV.tmp
+2024-03-19 15:07:44,481 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Src/stm32f4xx_it.c_save
+2024-03-19 15:07:44,598 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Src/stm32f4xx_it.c
+2024-03-19 15:07:44,600 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Inc/stm32f4xx_it.h_save
+2024-03-19 15:07:44,659 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Inc/stm32f4xx_it.h
+2024-03-19 15:07:44,664 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Src/stm32f4xx_hal_msp.c_save
+2024-03-19 15:07:44,780 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Src/stm32f4xx_hal_msp.c
+2024-03-19 15:07:44,783 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/system.tmp_save
+2024-03-19 15:07:44,841 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/MXTmpFiles/system.tmp
+2024-03-19 15:07:44,845 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Inc/stm32f4xx_hal_conf.h_save
+2024-03-19 15:07:44,907 [INFO] CodeEngine:335 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Inc/stm32f4xx_hal_conf.h
+2024-03-19 15:07:44,967 [WARN] IPConfigManager:2946 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-03-19 15:07:44,971 [WARN] IPConfigManager:3440 - IP not found : TIM
+2024-03-19 15:07:44,971 [WARN] IPConfigManager:3440 - IP not found : USB_OTG
+2024-03-19 15:07:44,971 [WARN] CodeGenerator:3939 - IP not found : null
+2024-03-19 15:07:44,971 [WARN] CodeGenerator:3939 - IP not found : null
+2024-03-19 15:07:44,975 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Inc/main.h_save
+2024-03-19 15:07:45,041 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Inc/main.h
+2024-03-19 15:07:45,043 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Src/main.c_save
+2024-03-19 15:07:45,169 [INFO] CodeEngine:279 - Generated code: /Users/romeluis/STM32CubeIDE/workspace_1.14.0/project/Core/Src/main.c
+2024-03-19 15:07:45,651 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 105mS.
+2024-03-19 15:07:45,664 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-03-19 15:07:45,936 [INFO] ConfigFileManager:1495 - The Die is : DIE421
+2024-03-19 15:07:49,111 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 3444mS.
+2024-03-19 15:07:49,118 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-03-19 15:07:49,122 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
