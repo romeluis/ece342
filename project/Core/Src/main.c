@@ -518,7 +518,7 @@ void vehicleForwardUntilUnClear() {
 	refreshSensorStatus();
 	while(canContinueForward()) {
 		vehicleForward();
-		HAL_Delay(10);
+		HAL_Delay(0);
 		refreshSensorStatus();
 	}
 	vehicleStop();
@@ -547,6 +547,7 @@ void vehicleLeft() {
 	motor4CW();
 }
 void vehicleLeftUntilClear() {
+	vehicleLeft();
 	while(isRightBlocked()) {
 		vehicleLeft();
 		HAL_Delay(10);
@@ -563,6 +564,7 @@ void vehicleRight() {
 	motor3CCW();
 }
 void vehicleRightUntilClear() {
+	vehicleRight();
 	while(isLeftBlocked()) {
 		vehicleRight();
 		HAL_Delay(10);
